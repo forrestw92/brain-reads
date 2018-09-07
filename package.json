@@ -1,0 +1,33 @@
+{
+  "name": "my-books",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://forrestwalker.net/Udacity/brain-reads",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "core-js": "^2.5.7",
+    "eslint": "^5.5.0",
+    "eslint-config-prettier": "^3.0.1",
+    "eslint-plugin-prettier": "^2.6.2",
+    "flexibility": "^2.0.1",
+    "history": "^4.7.2",
+    "node-sass-chokidar": "^1.3.3",
+    "prettier": "^1.14.2",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-html-parser": "^2.0.2",
+    "react-lazyload": "^2.3.0",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.5"
+  },
+  "scripts": {
+    "build-css": "node-sass-chokidar src/ -o src/",
+    "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
